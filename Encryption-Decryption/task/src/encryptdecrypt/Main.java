@@ -1,17 +1,8 @@
-package encryptdecrypt;  // System.out.println("dv ulfmw z givzhfiv!");  //for(char alphabet = 'a'; alphabet <='z'; alphabet++ )
+package encryptdecrypt;  
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // String encOrDec = scanner.nextLine();
-        //   String message = scanner.nextLine();
-        // String[] ms = new String[message.length()];
-        //   char[] ms = message.toCharArray();
-        // int movage = scanner.nextInt();
-       /* System.out.println(encOrDec);
-        System.out.println(ms);
-        System.out.println(movage); */
 
         String mode = "enc";
         int key = 0;
@@ -43,7 +34,7 @@ public class Main {
             case "enc":
                 for(int i = 0; i < dt.length; i++) {
 
-                    key = dt[i] + movage; //movage;
+                    key = dt[i] + movage; 
                     numButChar = (char) key;
 
                     System.out.print(numButChar);
@@ -64,10 +55,6 @@ public class Main {
                 System.exit(1);
         }
     }
-
-
-
-    // \jqhtrj%yt%m~ujwxpnqq&
 }
 
 
